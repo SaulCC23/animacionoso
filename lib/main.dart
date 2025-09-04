@@ -1,5 +1,5 @@
-import 'package:animacionoso/screens/login_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:animacionoso/screens/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,11 +15,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const LoginScreen(title: ''),
+      home: const LoginScreen(),
     );
   }
 }
-
